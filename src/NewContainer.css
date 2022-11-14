@@ -1,0 +1,36 @@
+.NewContainter
+{
+    position: fixed;
+    top:15vh;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: auto;
+    padding: 5vh 5vw;
+    display: grid;
+    gap: 8vh;
+    z-index: -1;
+}
+
+.CardContainer
+{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 3vw;
+}
+
+.reload
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 700px) {
+
+    .NewContainter
+    {
+        left: 0;
+    }
+}
