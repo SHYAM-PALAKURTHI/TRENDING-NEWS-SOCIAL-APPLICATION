@@ -1,0 +1,80 @@
+.ProfileSetting
+{
+    position: fixed;
+    top:15vh;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: auto;
+    padding: 5vh 5vw;
+    display: grid;
+    gap: 8vh;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ProfileSettingCenter
+{
+    background-color:#3A7576;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    border-radius: 5px;
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProfileImageSetting
+{
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #CFD7D8;
+}
+
+.UserName
+{
+    margin-top: 15px;
+    padding: 5px 20px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    text-align: center;
+    width: -webkit-fill-available;
+}
+
+.AllButton
+{
+    color: rgba(255, 255, 255,1);
+    width: -webkit-fill-available;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.PasswordEditButtom
+{
+    float: left;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+.ProfileEditButtom
+{
+    float: right;
+    cursor: pointer;
+    padding-left: 10px;
+
+}
+
+
+.UserNameInput
+{
+    margin-top: 15px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: -webkit-fill-available;
+}
