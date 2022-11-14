@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     gap: 10%;
-    padding: 50px 30px;
+    padding: 0 30px;
     background-color: rgba(187, 198, 200, 0.7);
 }
 
@@ -25,6 +25,9 @@
 
     .FirstPageComponent {
         flex-direction: column;
+        padding: 25px;
+        gap: 25px;
+
     }
 
     .WelcomeHeading {
@@ -33,5 +36,7 @@
         font-size:1.5rem;
         
     }
+
+    
 
 }
