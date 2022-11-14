@@ -1,0 +1,86 @@
+.Card
+{
+    overflow: hidden;
+    /* height: 350px; */
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    border-radius: 0.5rem;
+    height: 100%;
+
+}
+
+.CardImage
+{
+    width: -webkit-fill-available;
+}
+
+.CardDetails
+{
+    padding: 20px;
+    background: #3A7576;
+    position: relative;
+    color: wheat;
+    height: 100%;
+}
+
+.CardHeading
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.CardSubTitle
+{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #CFD7D8;
+}
+
+.CardOption
+{
+    display: flex;
+}
+
+.CardLink
+{
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    order: 2;
+}
+
+.SmallButton
+{
+    cursor: pointer;
+    font-size: 12px;
+    color: #f5deb385;;
+
+}
+
+.SmallButton:hover
+{
+    color: #f5deb3cd;
+    font-weight: 700;
+}
+
+.lastupdate
+{
+    color: #f5deb385;;
+    font-size: 12px;
+}
+
+.CardContaint
+{
+    font-size: 13px;
+    font-weight: 100;
+    color: #CFD7D8;
+
+}
+
+.LastUpdate
+{
+    display: flex;
+}
+
