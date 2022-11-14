@@ -1,0 +1,101 @@
+.navbar1 {
+    gap: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    background: #CFD7D8;
+    padding: 20px;
+
+}
+
+.logo {
+    height: -webkit-fill-available;
+}
+
+.searchbar {
+    width: 45vw;
+    border: 3px solid #3A7576;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.searchinput {
+    padding: 0 !important;
+    width: -webkit-fill-available;
+    border: navajowhite;
+    background: transparent;
+    margin: 7px 12px;
+    color: #3A7576;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+.searchinput:focus {
+    outline: none;
+}
+
+.searchicon {
+    padding: 7px;
+    cursor: pointer;
+    color: rgb(58, 117, 118);
+}
+
+.searchicon:hover {
+    font-size: larger;
+
+}
+
+.profile {
+    font-size: 25px;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 50%;
+    color: rgb(58, 117, 118);
+    cursor: pointer;
+}
+
+.ProfileButton
+{
+   position: relative;
+}
+
+@media screen and (max-width: 500px) {
+
+  
+
+
+    .logo {
+        width: 20vw;
+        height: auto;
+    }
+
+    .searchinput {
+        margin: 4px 8px;
+        font-weight: 400;
+
+    }
+
+    .searchicon {
+
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    .searchicon:focus {
+        font-size: 18px;
+    }
+
+    .profile {
+        font-size: 20px;
+        padding: 7px;
+       
+    }
+
+}
