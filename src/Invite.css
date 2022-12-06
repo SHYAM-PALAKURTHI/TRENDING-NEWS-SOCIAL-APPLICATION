@@ -1,0 +1,40 @@
+.InviteContainer {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+button {
+  font-size: 20px;
+  color: #000;
+  padding: 10px 25px;
+  border-radius: 17%;
+  background-color: #f5deb385;
+  font-weight: 700;
+}
+
+.btnDiv {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.emailInput {
+  width: 100%;
+  border-color: #000;
+  border-radius: 7%;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+}
+.formContainer {
+  height: 280px;
+  width: 400px;
+  background-color: #3a7576;
+  border-radius: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
