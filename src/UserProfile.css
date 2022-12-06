@@ -1,0 +1,15 @@
+.profileContainer {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.user-profile-card {
+  width: 30rem;
+  background-color: #3a7576;
+}
+
+.card-user-image {
+  border-radius: 50%;
+}
