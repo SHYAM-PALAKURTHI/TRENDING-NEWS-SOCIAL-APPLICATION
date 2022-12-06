@@ -194,8 +194,8 @@ export default function UserProfile() {
       console.log('#########', currentUserData, profileUser);
     }
   }, [id]);
-  const shareOnWhatsapp = () => {
-    let url = `https://web.whatsapp.com/send?phone=+91${currentUserData.number}`;
+  const shareOnWhatsapp  = () => {
+    let url = ` https://web.whatsapp.com/send?phone=+91${currentUserData.number}`;
 
     // Appending the message to the URL by encoding it
     url += `&text=Hi,&app_absent=0`;
@@ -205,16 +205,17 @@ export default function UserProfile() {
   };
 
   const showUserInterest = () => {
-    if (!blocked && noOfFollowers.length) {
+    if (!blocked && noOfFollowers.length)  {
       return true;
     } else if (
       currentUserData &&
       profileUser &&
-      currentUserData.location === profileUser.location
+      currentUserData.location ===  profileUser.location
     ) {
       return true;
     }
     return false;
+    
   };
 
   return (
@@ -261,7 +262,7 @@ export default function UserProfile() {
             <div className=" d-flex justify-content-around m-2">
               <button
                 type="button"
-                className="btn btn-light w-25"
+                className="btn btn-light w-26"
                 onClick={() => navigate(`/followers/${id}`)}
               >
                 Followers &nbsp;
@@ -292,7 +293,7 @@ export default function UserProfile() {
                   className="btn btn-link text-light w-25"
                   onClick={() => navigate(`/ratings/${id}`)}
                 >
-                  {`${currentUserData.FirstName} rated news`}
+                  {`${currentUserData.FirstName}  rated news`}
                 </button>
                 <button
                   type="button"
